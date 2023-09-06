@@ -1,0 +1,440 @@
+.main-header {
+  background-color: rgba(0, 38, 255, 0.526);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  align-items: center;
+  margin: 0;
+}
+body{
+  margin:0;
+}
+
+.main-header ul.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.main-header ul.nav-links {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin:0;
+}
+
+.main-header .main-logo {
+  width: 110px;
+}
+
+.main-header .main-logo img {
+  width: 100%;
+}
+
+.center {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+
+}
+
+.background-image {
+  background-color: rgb(0, 157, 255);
+  background-image: url(./../pic/banner_image.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+}
+
+.head{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 100px;
+  padding-top: 140px;
+}
+h1{
+  font-size: 50px;
+}
+.title{
+  margin-bottom: 42px;
+  line-height: 0.8;
+  margin-top: 0;
+  font-size:50px ;
+}
+
+.b {
+  text-align: center;
+  border-radius: 200px;
+  height: 40px;
+  width: 120px;
+  color: rgb(255, 255, 255);
+  border-color: orange;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: orange;
+  font-weight: bold;
+  padding: 10px 15px;
+
+}
+
+.align {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  background-color: rgba(0, 102, 255, 0.544);
+}
+h3{
+  font-size: 30px;
+margin: 12px 0px;
+}
+
+
+.row {
+  display: flex;
+  padding-left: 20px;
+  background-position: top;
+  padding-top: 50px;
+  justify-content: space-evenly;
+}
+/* <section> 2 end */
+.pic {
+  text-align: center;
+  background-image: url(./../pic/pet_care_banner.png.jpg);
+  background-repeat: no-repeat;
+  color:black;
+  background-size: cover;
+  background-position: top;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  
+ 
+}
+.pic h2 {
+  font-size: 40px;
+  margin-top: 8px;
+}
+/* h2{
+  margin-top: 15px;
+ 
+} */
+
+.line.border p >strong{
+  font-size: 40px;
+}
+.border{
+  border: 8px solid white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.border strong {
+  font-size: 32px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 100px 100px;
+  /* align-items: center; */
+}
+
+/* <!-- <section4-start --> */
+.s4 {
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 72, 255, 0.723);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 100px 50px;
+  font-size: 20px;
+}
+.s4 h2{
+  font-size: 40px;
+}
+
+.sb {
+  text-align: center;
+  border-radius: 200px;
+ 
+  border-color: orange;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+  padding: 10px 70px;
+  font-size: 18px;
+
+}
+
+
+
+/* <!-- <section4-end --> */
+/* <!-- <section5-start --> */
+.back {
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 204, 255, 0.723);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
+  font-size: 20px;
+ 
+}
+.back h2{
+  font-size:40px;
+}
+
+
+
+
+.button {
+
+  text-align: center;
+  border-radius: 200px;
+ 
+  border-color: orange;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+  padding: 10px 70px;
+  font-size: 18px;
+}
+
+
+
+/* <!-- <section5-end --> */
+/* <!-- <section6-start--> */
+.price {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 72, 255, 0.723);
+  font-size: 20px;
+  padding-top: 50px;
+
+
+}
+.price h2{
+  font-size:40px ;
+}
+
+.flex {
+  display: flex;
+  justify-content:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+.solid {
+  border: 2px solid white;
+  background-color: white;
+  color: rgba(0, 55, 255, 0.604);
+  padding: 10px 10px;
+}
+ .flex .solid {
+  padding: 10px;
+
+}
+.solid .button {
+  margin-bottom: 11px;
+}
+/* .space{
+  padding-left: 50px;
+  padding-right: 50px;
+  width:23%;
+} */
+/* <!-- <section6-end --> */
+/* <!-- <section7-start --> */
+.col {
+  background-color: rgba(58, 187, 223, 0.916);
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+   
+}
+
+.left {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.left>div {
+  width: 50%;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  display: flex;
+  justify-content: center;
+
+}
+
+.left>div>img {
+  width: 100px;
+  height: 100px;
+  padding-right: 10px;
+
+}
+
+
+.a1 {
+  display: flex;
+}
+
+/* <!-- <section7-end --> */
+/* <!-- <section8-start --> */
+.jenny {
+  background-image: url('./../pic/dr_Jenny.jpg');
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  background-position: 0 52%;
+
+}
+
+/* <!-- <section8-end--> */
+/* <!-- <section9-start--> */
+.sec9 {
+  display: flex;
+  justify-content:space-between;
+    font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.819);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.sec9 > div {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* <!-- <section9-end--> */
+
+.size img,
+.img2 img {
+  max-width: 100%;
+}
+
+
+
+/* Tab and desktop view css--------- */
+@media(min-width:768px){
+  .size{
+    padding-left: 36px;
+  }
+  .img2{
+    padding-right: 36px;
+  }
+  .space,
+  .s4,
+  .back {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}
+
+
+/* End Tab and desktop view css--------- */
+
+
+
+/* Mobile view css--------- */
+@media (max-width: 767px) {
+  .main-header,
+  .row,
+  .line,
+  .s4,
+  .back,
+  .flex,
+  .sec9 {
+    flex-direction: column;
+  }
+  .search-icon{
+    display: none;
+  }
+  
+  .main-header ul.nav-links {
+    font-size: 14px;
+  }
+.main-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.size img {
+  padding-top: 30px;
+}
+.s4,
+.back{
+  padding:50px 0px;
+}
+.space{
+  width:100%;
+}
+}
+
+
+
+
+/* End Mobile view css--------- */ 
+
+
+/*start Tab view css--------- */ 
+@media(min-width:768px){
+  nav.row,
+  .flex {
+    flex-direction: column;
+  }
+}
+
+/*endTab view css--------- */ 
+
+/*start desktop view css--------- */ 
+@media(max-width:992px){
+
+
+
+}
+
+
+/*end desktop view css--------- */ 
+
+
+
+
+
+
+
+
+
+
+
