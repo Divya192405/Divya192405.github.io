@@ -50,7 +50,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
- 
+
 
 
 }
@@ -109,9 +109,11 @@ h3 {
 .row {
   display: flex;
   padding-left: 20px;
+  padding-right: 20px;
   background-position: top;
   padding-top: 50px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  text-align: center;
 }
 
 /* <section> 2 end */
@@ -300,15 +302,20 @@ h3 {
   flex-wrap: wrap;
   box-sizing: border-box;
   padding-top: 10px;
-  padding-bottom: 50px;
+  /*  */
 }
 
 .left>div {
-  width: 50%;
+  width: 100%;
   /* padding-left: 10px;
   padding-right: 10px; */
-  display: flex;
+  /* display: flex;
   justify-content: center;
+  text-align: center;
+  flex-direction: row; */
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* align-items: center; */
 
 }
 
@@ -327,7 +334,7 @@ h3 {
 /* <!-- <section7-end --> */
 /* <!-- <section8-start --> */
 .jenny {
-  background-image: linear-gradient(45deg, rgb(205 233 10 / 94%), rgb(205 233 10 / 61%)), url(./../pic/dr_Jenny.jpg);
+  background-image: linear-gradient(45deg, rgb(213 230 15 / 0.84), rgb(205 233 10 / 61%)), url(./../pic/dr_Jenny.jpg);
   background-size: cover;
   /* padding-top: 300px;
   padding-bottom: 300px; */
@@ -337,6 +344,8 @@ h3 {
   background-position: 0 52%;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
@@ -352,6 +361,7 @@ h3 {
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
+
 }
 
 .sec9>div {
@@ -387,7 +397,7 @@ h3 {
 }
 
 
-/* End mobile and desktop view css--------- */
+/* End tab and desktop view css--------- */
 
 
 
@@ -402,6 +412,7 @@ h3 {
   .flex,
   .sec9 {
     flex-direction: column;
+    align-items: center;
   }
 
   .search-icon {
@@ -429,19 +440,39 @@ h3 {
   .space {
     width: 100%;
     padding-bottom: 34px;
-  
+
   }
 
-  .left {
+  .left>div {
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
-    align-items: center;
+    padding-bottom: 20px;
+
   }
 
   .pic {
     padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .mag{
-    flex-direction: column;
+
+  .back {
+    padding-bottom: 40px;
+  }
+
+  .line,
+  .col {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .row>div {
+    padding-bottom: 25px;
+  }
+
+  .sec9 {
+    text-align: center;
   }
 }
 
@@ -456,6 +487,7 @@ h3 {
 /*start desktop view css--------- */
 @media(min-width:992px) {
 
+
   .row {
     flex-direction: row;
   }
@@ -467,6 +499,16 @@ h3 {
 
   .line {
     justify-content: space-between;
+  }
+
+  .left>div {
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
 
