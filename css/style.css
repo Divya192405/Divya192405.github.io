@@ -440,6 +440,14 @@ h3 {
   .mag li{
     margin-bottom: 18px;
   }
+  .sb,
+  .b,
+  .button{
+    cursor: pointer;
+  }
+  nav.row>div {
+    margin-bottom: 35px;
+  }
 }
 
 
@@ -541,6 +549,11 @@ h3 {
   .sec9{
     text-align: center;
   }
+  .b,
+  .button,
+  .sb{
+    cursor: pointer;
+  }
 }
 
 
@@ -611,6 +624,11 @@ h3 {
 }
 .sec9{
   text-align: left;
+}
+.sb,
+.button,
+.b{
+  cursor: pointer;
 }
 }
   
