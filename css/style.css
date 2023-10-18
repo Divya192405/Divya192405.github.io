@@ -23,8 +23,10 @@ body {
   padding-left: 0;
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 19px;
   margin: 0;
+  
+  
 }
 
 .main-header .main-logo {
@@ -62,10 +64,13 @@ body {
   font-size: 20px;
   padding-bottom: 100px;
   padding-top: 140px;
+  
 }
 
 h1 {
   font-size: 50px;
+  font-family: 'poppins';
+  font-weight: 6rem;
 }
 
 .title {
@@ -73,6 +78,7 @@ h1 {
   line-height: 0.8;
   margin-top: 0;
   font-size: 50px;
+  font-family:'poppins';
 }
 
 .b {
@@ -88,6 +94,7 @@ h1 {
   background-color: orange;
   font-weight: bold;
   padding: 10px 15px;
+  font-family: 'poppins';
 
 }
 
@@ -104,6 +111,7 @@ h1 {
 h3 {
   font-size: 30px;
   margin: 12px 0px;
+  font-family: 'poppins';
 }
 
 
@@ -115,6 +123,7 @@ h3 {
   padding-top: 50px;
   justify-content: space-between;
   text-align: center;
+  
 }
 
 /* <section> 2 end */
@@ -133,8 +142,9 @@ h3 {
 }
 
 .pic h2 {
-  font-size: 40px;
+  font-size: 48px;
   margin-top: 8px;
+  font-family: 'poppins';
 }
 
 /* h2{
@@ -162,6 +172,7 @@ h3 {
 
 .border strong {
   font-size: 32px;
+  font-family: 'poppins';
 }
 
 .line {
@@ -185,7 +196,8 @@ h3 {
 }
 
 .s4 h2 {
-  font-size: 40px;
+  font-size: 48px;
+  font-family: 'poppins';
 }
 
 .sb {
@@ -198,6 +210,7 @@ h3 {
   font-weight: bold;
   padding: 10px 70px;
   font-size: 18px;
+  font-family: 'poppins';
 
 }
 
@@ -218,7 +231,8 @@ h3 {
 }
 
 .back h2 {
-  font-size: 40px;
+  font-size: 48px;
+  font-family: 'poppins';
 }
 
 
@@ -235,6 +249,7 @@ h3 {
   font-weight: bold;
   padding: 10px 70px;
   font-size: 18px;
+  font-family: 'poppins';
 }
 
 
@@ -252,7 +267,8 @@ h3 {
 }
 
 .price h2 {
-  font-size: 40px;
+  font-size: 48px;
+
 }
 
 .flex {
@@ -296,6 +312,9 @@ h3 {
   font-size: 24px;
 
 }
+.col h1{
+  font-family: 'poppins';
+}
 
 .left {
   text-align: left;
@@ -303,7 +322,7 @@ h3 {
   flex-wrap: wrap;
   box-sizing: border-box;
   padding-top: 25px;
- padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .left>div {
@@ -323,7 +342,8 @@ h3 {
 .left>div>img {
   width: 70px;
   height: 64px;
-/*   
+  padding-top: 18px;
+  /*   
   padding-left: 100px;
     padding-bottom: 70px; */
 
@@ -337,13 +357,13 @@ h3 {
 /* <!-- <section7-end --> */
 /* <!-- <section8-start --> */
 .jenny {
-  background-image: linear-gradient(45deg, rgb(213 230 15 / 0.84), rgb(205 233 10 / 61%)), url(./../pic/dr_Jenny.jpg);
+  background-image: linear-gradient(45deg, rgb(213 230 15 / 0.84), rgb(205 233 10 / 91%)), url(./../pic/dr_Jenny.jpg);
   background-size: cover;
   /* padding-top: 300px;
   padding-bottom: 300px; */
   color: white;
   text-align: center;
-  font-size: 35px;
+  font-size: 38px;
   background-position: 0 52%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -371,11 +391,11 @@ h3 {
   padding-left: 50px;
   padding-right: 50px;
 } */
-.mag{
+.mag {
   list-style: none;
   padding-left: 8px;
   color: white;
- 
+
 }
 
 /* <!-- <section9-end--> */
@@ -385,9 +405,30 @@ h3 {
   max-width: 100%;
 }
 
+sec9>div {
+  font-size: 3rem;
+  margin-left: 20px;
+  color: blue;
+}
 
+.hll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 216px;
+}
+@font-face {
+  font-family: 'poppins';
+  src: url("../fonts/text-font/Poppins-ExtraBold.ttf") format(truetype),url("../fonts/text-font/Poppins-Medium.ttf") format('woff');
+  
+}
+@font-face {
+  font-family: 'poppins';
+  src: url("../fonts/text-font/Poppins-Regular.ttf") format('ttf');
+  font-weight:normal ;
+}
 
-/* Tab and desktop view css--------- */
+/* / Tab and desktop view css--------- */ 
 @media(min-width:768px) {
   .size {
     padding-left: 36px;
@@ -404,49 +445,67 @@ h3 {
     padding-right: 50px;
 
   }
-  .row{
+
+  .row {
     flex-direction: column;
   }
+
   .line,
   .flex,
-  .left{
+  .left {
     flex-direction: column;
     text-align: center;
     align-items: center;
   }
-  .space{
+
+  .space {
     margin-bottom: 50px;
   }
-  .jenny{
+
+  .jenny {
     padding-top: 200px;
     padding-top: 200px;
   }
- .sec9 ul.mag a {
+
+  .sec9 ul.mag a {
     color: white;
     text-decoration: none;
     text-align: center;
   }
-  .se9>div{
+
+  .se9>div {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .sec9{
+
+  .sec9 {
     flex-direction: column;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: center;
+    text-align: left;
   }
-  .mag li{
+
+  .mag li {
     margin-bottom: 18px;
   }
+
   .sb,
   .b,
-  .button{
+  .button {
     cursor: pointer;
   }
+
   nav.row>div {
     margin-bottom: 35px;
+  }
+
+  .search-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  .hll{
+    padding-right: 595px;
   }
 }
 
@@ -466,7 +525,7 @@ h3 {
   .flex,
   .sec9 {
     flex-direction: column;
-  
+
   }
 
   .search-icon {
@@ -529,29 +588,34 @@ h3 {
 
   .sec9 ul.mag a {
     align-items: left;
-    color:white;
+    color: white;
     text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
   }
-  .left>div>img{
+
+  .left>div>img {
     padding-left: 0px;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 18px;
   }
-  .mag li{
+
+  .mag li {
     margin-bottom: 18px;
   }
-  .sec9>div{
+
+  .sec9>div {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .sec9{
-    text-align: center;
+
+  .sec9 {
+    text-align: left;
   }
+
   .b,
   .button,
-  .sb{
+  .sb {
     cursor: pointer;
   }
 }
@@ -582,7 +646,7 @@ h3 {
   }
 
   .line {
-   
+
     align-items: center;
   }
 
@@ -592,46 +656,66 @@ h3 {
 
     flex-direction: row;
     align-items: center;
-  
+
   }
-  .row{
+
+  .row {
     padding-left: 90px;
     padding-right: 90px;
   }
-  .left{
+
+  .left {
     padding-top: 10px;
     text-align: left;
     /* padding-right: 200px;
     padding-left: 200px; */
   }
- ul.mag a{
-  color: white;
-  text-decoration: none;
-  padding-bottom: 10px;
-}
-.left>div>img{
-  
-  padding-left: 100px;
+
+  ul.mag a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+
+  .left>div>img {
+
+    padding-left: 100px;
     padding-bottom: 70px;
     padding-right: 15px;
+  }
+
+  .mag li {
+    margin-bottom: 18px;
+  }
+
+  .sec9>div {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .sec9 {
+    text-align: left;
+  }
+
+  .sb,
+  .button,
+  .b {
+    cursor: pointer;
+  }
+
+  .search-icon img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .sec9>div>div .font {
+    flex-direction: row;
+  }
+  .hll{
+    padding-right: 300px;
+  }
 }
-.mag li{
-  margin-bottom: 18px;
-}
-.sec9>div{
-  padding-left:50px ;
-  padding-right: 50px;
-}
-.sec9{
-  text-align: left;
-}
-.sb,
-.button,
-.b{
-  cursor: pointer;
-}
-}
-  
+
 
 
 
